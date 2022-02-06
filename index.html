@@ -1,34 +1,15 @@
 <html>
 <head>
 <style>
-	body {
-		display:flex;
-		align-content:center;
-	}
-	#ani {
-		position:absolute;
-		background:aquamarine;
-		width:8vw;
-		height:8vh;
-	}
-	#ani:hover {
-		background:black;
-	}
-	#anu {
-		position:absolute;
-		width:8vw;
-		height:8vh;
-	}
+body {margin:0;padding:0}
+#main {position:fixed;width:100vw;height:100vh}
 </style>
 </head>
 <body>
-<div id="ani"></div>
-<canvas id="anu"></canvas>
-<img style="width:50vw;height:auto" src="https://avatars.githubusercontent.com/u/62521886?v=4"></img>
-<script>
-const ctx = anu.getContext('2d');
-ctx.fillStyle = '#ff0000';
-ctx.fillRect(0,0,200,20);
+<div id="main"></div>
+<script type="module">
+import * from "app.js";
+alert(app);
 </script>
 </body>
 </html>
