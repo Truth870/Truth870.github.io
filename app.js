@@ -1,5 +1,1 @@
-prompt();
-
-onload = function(){
-  alert("Waloh");
-}
+alert("Waloh");
