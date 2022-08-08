@@ -1,1 +1,3 @@
-
+function onload(){
+  alert("Waloh");
+}
