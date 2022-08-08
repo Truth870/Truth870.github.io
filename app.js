@@ -1,3 +1,5 @@
-function onload(){
+prompt();
+
+onload = function(){
   alert("Waloh");
 }
